@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/28/user/1131449).
-* Наставник: `Неизвестно`.
+* Студент: [Захар](https://up.htmlacademy.ru/htmlcss/28/user/1131449).
+* Наставник: [Оксана Вайнруб](https://up.htmlacademy.ru/htmlcss/28/user/166797).
 
 ---
 

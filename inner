@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+
+	<header>
+		
+		<nav>
+			<ul>
+				<li>
+					<a href=""><img src="nerds"></a>
+				</li>
+				<li>
+					<a href="">студия</a>
+				</li>
+				<li>
+					<a href="">клиенты</a>
+				</li>
+				<li>
+					<a href="">магазин</a>
+				</li>
+				<li>
+					<a href="">контакты</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="корзина">
+						корзина 
+					</a>
+				</li>
+			</ul>
+			
+		</nav>
+	
+	</header>
+	<main>
+		<div>
+			<p>Магазин готовых шаблонов</p>
+		</div>
+		<div>
+			<p>сетка:</p>
+			<ul>
+				<li>Адаптивная</li>
+				<li>Фиксированная</li>
+				<li>Резиновая</li>
+			</ul>
+			<p>особенности:</p>
+			<ul>
+				<li>Слайдер</li>
+				<li>Блок преимуществ</li>
+				<li>Новости</li>
+				<li>Галерея</li>
+				<li>Корзина</li>
+			</ul>
+			<a href=""><button>показать</button></a>
+		</div>
+		<section>
+			<a href=""><img src="sedona"></a>
+			<a href=""><img src="pink"></a>
+			<a href=""><img src="Barbershop Borodinski"></a>
+			<a href=""><img src="Mishka"></a>
+			<a href=""><img src="A+"></a>
+			<a href=""><img src="Kwas"></a>
+		</section>
+	</main>
+	<footer>
+		
+
+		<nav>
+			<ul>
+				<li>
+					<a href=""><img src="icon WK"></a>
+				</li>
+				<li>
+					<a href=""><img src="icon facebook"></a>
+				</li>
+				<li>
+					<a href=""><img src="icon instagramm"></a>
+				</li>
+			</ul>	
+		</nav>
+		<p>Давайте дружить, это выгодно!</p>
+		<p>Скидка 10% для друзей из социальных сетей</p>
+	</footer>
+
+  </body>
+</html>

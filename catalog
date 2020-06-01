@@ -11,7 +11,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href=""><img src="nerds"></a>
+					<a href=""><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt="Нёрдс"></a>
 				</li>
 				<li>
 					<a href="">студия</a>
@@ -27,7 +27,7 @@
 				</li>
 				<li>
 					<a href="">
-						<img src="корзина">
+						<img src="img/cart-icon.svg" width="15" height="15" alt="корзина">
 						корзина 
 					</a>
 				</li>
@@ -55,15 +55,15 @@
 				<li>Галерея</li>
 				<li>Корзина</li>
 			</ul>
-			<a href=""><button>показать</button></a>
+			<a href=""><!--<button>показать</button>--></a>
 		</div>
 		<section>
-			<a href=""><img src="sedona"></a>
-			<a href=""><img src="pink"></a>
-			<a href=""><img src="Barbershop Borodinski"></a>
-			<a href=""><img src="Mishka"></a>
-			<a href=""><img src="A+"></a>
-			<a href=""><img src="Kwas"></a>
+			<a href=""><img src="img/img-sedona 1.jpg" width="360" height="576" alt="корзина"></a>
+			<a href=""><img src="img/img-pink 1.jpg" width="358" height="578" alt="корзина"></a>
+			<a href=""><img src="img/img-barbershop 1.jpg" width="358" height="578" alt="корзина"></a>
+			<a href=""><img src="img/img-mishka 1.jpg" width="358" height="578" alt="корзина"></a>
+			<a href=""><img src="img/img-alpus 1.jpg" width="358" height="578" alt="корзина"></a>
+			<a href=""><img src="img/img-kvast 1.jpg" width="358" height="578" alt="корзина"></a>
 		</section>
 	</main>
 	<footer>
@@ -72,13 +72,13 @@
 		<nav>
 			<ul>
 				<li>
-					<a href=""><img src="icon WK"></a>
+					<a href=""><img src="img/vk-icon.svg" width="26.01" height="15" alt="веб-сайты"></a>
 				</li>
 				<li>
-					<a href=""><img src="icon facebook"></a>
+					<a href=""><img src="img/fb-icon.svg" width="12" height="22" alt="веб-сайты"></a>
 				</li>
 				<li>
-					<a href=""><img src="icon instagramm"></a>
+					<a href=""><img src="img/insta-icon.svg" width="21" height="21" alt="веб-сайты"></a>
 				</li>
 			</ul>	
 		</nav>

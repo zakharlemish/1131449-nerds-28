@@ -3,58 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
-	<header>
+	<header  class="main-header">
 		
-		<nav>
-			<ul>
+		<nav class="main-navigation container">
+			<ul class="site-navigation">
 				<li>
-					<a href=""><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt="Нёрдс"></a>
-				</li>
-				<li>
-					<a href="">студия</a>
-				</li>
-				<li>
-					<a href="">клиенты</a>
-				</li>
-				<li>
-					<a href="">магазин</a>
-				</li>
-				<li>
-					<a href="">контакты</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/cart-icon.svg" width="15" height="15" alt="корзина">
-						корзина 
-					</a>
-				</li>
-			</ul>
-			
+					<a href="index.html"><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt="Нёрдс"></a></li>
+				<li><a href="">студия</a></li>
+				<li><a href="">клиенты</a></li>
+				<li><a href="">магазин</a></li>
+				<li><a href="">контакты</a></li>
+				<li><a href=""><img src="img/cart-icon.svg" width="15" height="15" alt="корзина">корзина</a></li>
+			</ul>			
 		</nav>
 	
 	</header>
 	<main>
 		<div>
-			<p>Магазин готовых шаблонов</p>
+			<p class="about">Магазин готовых шаблонов</p>
 		</div>
-		<form action="https://echo.htmlacademy.ru/courses" method="post">
-			<p>сетка:</p>
-			<label>
+		<form action="https://echo.htmlacademy.ru/courses" method="post" class="options-form">
+			<p class="options">сетка:</p>
+			<label class="black-label">
 					<input type="radio" name="grids" value="adopted" checked="">
 					Адаптивная
 			</label><br>
-			<label>
+			<label class="black-label">
 					<input type="radio" name="grids" value="fixed">
 					Фиксированная
 			</label><br>
-			<label>
+			<label class="black-label">
 					<input type="radio" name="grids" value="gumed">
 					Резиновая
 			</label>
-			<p>особенности</p>
+			<p class="options">особенности</p>
 			<input type="checkbox" name="slider" id="slider-id" checked="">
 					<label for="slider-id">Слайдер</label><br>
 			<input type="checkbox" name="advantages block" id="advantages block-id">
@@ -78,7 +66,7 @@
 				<li>Галерея</li>
 				<li>Корзина</li>
 			</ul>-->
-			<input type="submit" value="Показать">
+			<input class="submit" type="submit" value="Показать">
 		</form>
 		<section>
 			<a href=""><img src="img/img-sedona 1.jpg" width="360" height="576" alt="корзина"></a>
@@ -88,43 +76,48 @@
 			<a href=""><img src="img/img-alpus 1.jpg" width="358" height="578" alt="корзина"></a>
 			<a href=""><img src="img/img-kvast 1.jpg" width="358" height="578" alt="корзина"></a>
 		</section>
+		<div class="page-shfter">
+			<a href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<a href="" class="next">следующая</a>
+		</div>
 	</main>
 	<footer>
 		<form action="https://echo.htmlacademy.ru/courses" method="post">
-			<p>Напишите нам</p>
+			<p class="popap-header">Напишите нам</p>
 			<button><img src="img/Vector.svg"  width="21" height="21" alt="веб-сайты"></button>
 			<div class="half-width">
 				<label for="name-id"> Ваше имя:</label>
-				<input type="text" name="Name" id="name-id" placeholder="Имя Фамилия">
+				<input class="aboutyou" type="text" name="Name" id="name-id" placeholder="Имя Фамилия">
 			</div>
 			<div class="half-width">
 				<label for="email-id">Ваш email</label>
-				<input type="email" name="email" id="email-id" placeholder="email@example.com">
+				<input class="aboutyou" type="email" name="email" id="email-id" placeholder="email@example.com">
 			</div>
 			<div class="half-width">
 				<label for="text-id">Текст письма</label>
 				<textarea id="text-id" rows="4" placeholder="В свободной форме"></textarea>
 			</div>
-			<input type="submit" value="Отправить">
+			<input class="button" type="submit" value="Отправить">
 		</form>
-		
-
 		<nav>
 			<ul>
-				<li>
-					<a href=""><img src="img/vk-icon.svg" width="26.01" height="15" alt="веб-сайты"></a>
+				<li class="social">
+						<a href=""><img src="img/vk-icon.svg" width="26.01" height="15" alt="веб-сайты"></a>
 				</li>
-				<li>
-					<a href=""><img src="img/fb-icon.svg" width="12" height="22" alt="веб-сайты"></a>
+				<li class="social">
+						<a href="">  <img src="img/fb-icon.svg" width="12" height="22" alt="веб-сайты"></a
 				</li>
-				<li>
-					<a href=""><img src="img/insta-icon.svg" width="21" height="21" alt="веб-сайты"></a>
+				<li class="social">
+						<a href=""><img src="img/insta-icon.svg" width="21" height="21" alt="веб-сайты"></a>
 				</li>
 			</ul>	
 		</nav>
-		<p>Давайте дружить, это выгодно!</p>
-		<p>Скидка 10% для друзей из социальных сетей</p>
+		<p class="slogan">Давайте дружить, это выгодно!</p>
+		<p class="bakshish">Скидка 10% для друзей из социальных сетей</p>
 	</footer>
+
 
   </body>
 </html>

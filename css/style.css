@@ -1,0 +1,246 @@
+:root {
+  --basic-black: #000000;
+  --basic-dark: #283136;
+  --basic-neutral: #444444;
+  --basic-extra-light: #666666;
+  --basic-white: #ffffff;
+
+}
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.visually-hidden {
+  display: none;
+ } 
+
+ .site-navigation a{
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+h3{
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.about{
+font-size: 55px;
+  line-height: 55px;
+
+}
+
+.options{
+font-size: 18px;
+  line-height: 30px;
+text-transform: uppercase;
+}  
+
+.options-form label{
+
+font-size: 16px;
+line-height: 19px;
+color: var(--basic-dark); 
+
+}
+
+.options-form .black-label{
+
+color: var(--basic-black);
+ } 
+
+.options-form .submit{
+
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-black);
+font-weight: 700;
+width: 260px;
+height: 50px;
+background-color: #EEEEEE;
+border: none;
+}
+
+.servises p{
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--basic-dark);
+  background-color: transparent;
+
+  }
+
+.button {
+
+width: 160px;
+height: 50px;
+
+
+  }
+
+  .button a{
+color: var(--basic-white);
+vertical-align: middle;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 18px;
+
+
+}
+  .button-1 {
+
+    background-color: #FB565A;
+
+}
+
+.button-2 {
+
+    background-color: #00CA74;
+
+}
+
+.button-3 {
+
+    background-color: #EFC849;
+
+}
+
+.popap-header {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 53px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.half-width label{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: var(--basic-black);
+  background-color: transparent;
+
+ } 
+
+ .half-width input, .half-width textarea {
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 18px;
+  color: var(--basic-neutral);
+  background-color: transparent;
+
+ } 
+
+ .half-width+input {
+width: 259px;
+height: 50px;
+background-color: #FB565A;
+color: var(--basic-white);
+vertical-align: middle;
+text-align: center;
+text-transform: uppercase;
+border: none;
+font-weight: regular;
+
+}
+
+.social{
+  height: 81px;
+  text-align: center;
+  line-height: 95px;
+}
+.social a  {
+display: inline-block;
+background-color: #E1E1E1;
+width: 81px;
+height: 81px;
+border-radius: 40.5px;
+
+ } 
+
+ .slogan {
+  font-size: 36px;
+  font-weight: bold;
+line-height: 36px;
+  }
+
+  .bakshish {
+  font-size: 16px;
+  font-weight: regular;
+  color: var(--basic-neutral);
+  line-height: 22px;
+   } 
+
+.page-shfter a{
+display: inline-block;
+width: 50px;
+/*padding-left: 20px;
+padding-right: 20px;*/
+height: 44px;
+border-radius: 3px;
+background-color: #EEEEEE;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 50px;
+color: var(--basic-black);
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+vertical-align: middle;
+
+border-width: 3px;
+border: solid;
+border-color: #EEEEEE;
+  }
+
+
+.page-shfter a:hover{
+
+background-color: var(--basic-white);
+border-width: 3px;
+border: solid;
+border-color: #EEEEEE;
+
+ } 
+ .page-shfter .next{
+
+width: 260px;
+  }
+
+  .aboutyou {
+
+width: 360px;
+height: 50px;
+background-color: var(--basic-white);
+border-width: 3px;
+border: solid;
+border-color: #EEEEEE;
+ border-radius: 3px;
+  }
+
+  .half-width textarea{
+width: 760px;
+border-width: 3px;
+border: solid;
+border-color: #EEEEEE;
+ border-radius: 3px;
+
+
+    }

@@ -11,7 +11,7 @@ body {
   min-width: 1440px;
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
@@ -20,7 +20,15 @@ body {
 }
 
 .visually-hidden {
-  display: none;
+  /*display: none;*/
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
  } 
 
  .site-navigation a{
@@ -29,6 +37,7 @@ body {
   color: var(--basic-black);
   background-color: transparent;
   text-decoration: none;
+  text-transform: uppercase;
   
 }
 
@@ -82,6 +91,7 @@ border: none;
   line-height: 24px;
   color: var(--basic-dark);
   background-color: transparent;
+  font-weight: 400;
 
   }
 
